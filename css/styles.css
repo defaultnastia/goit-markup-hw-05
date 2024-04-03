@@ -475,36 +475,45 @@ li {
   color: var(--white);
   margin-bottom: 16px;
 }
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
 .subscribe-input {
   border: 1px solid var(--white);
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  padding: 8px 16px;
-  margin-right: 24px;
+  padding-left: 16px;
   background-color: transparent;
-}
-
-.subscribe-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-input::placeholder {
+  color: var(--white);
 }
 
 .subscribe-submit {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--white);
+  cursor: pointer;
 }
 
 .subscribe-icon {
@@ -568,6 +577,7 @@ li {
 .modal-close-button:hover,
 .modal-close-button:focus {
   background-color: var(--ocean);
+  border: none;
 }
 
 .close-icon {
@@ -578,7 +588,6 @@ li {
 .modal-close-button:focus .close-icon,
 .modal-close-button:hover .close-icon {
   fill: var(--white);
-  border: none;
 }
 
 .modal-caption {
@@ -673,6 +682,7 @@ li {
 }
 
 .custom-checkbox {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   height: 16px;
@@ -684,7 +694,6 @@ li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
   fill: transparent;
 }
 
