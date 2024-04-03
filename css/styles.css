@@ -469,13 +469,13 @@ li {
 
 .subscribe-wrapper {
 }
-.subscribe-label {
+.subscribe-title {
   display: block;
   font-weight: 500;
   color: var(--white);
   margin-bottom: 16px;
 }
-#subscribe-input {
+.subscribe-input {
   border: 1px solid var(--white);
   border-radius: 4px;
   width: 264px;
@@ -485,7 +485,7 @@ li {
   background-color: transparent;
 }
 
-#subscribe-input::placeholder {
+.subscribe-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -578,6 +578,7 @@ li {
 .modal-close-button:focus .close-icon,
 .modal-close-button:hover .close-icon {
   fill: var(--white);
+  border: none;
 }
 
 .modal-caption {
