@@ -510,6 +510,7 @@ li {
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--white);
