@@ -712,9 +712,11 @@ li {
 }
 
 .agreement-label {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
 }
 .modal-submit {
   display: block;
